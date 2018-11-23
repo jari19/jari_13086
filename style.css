@@ -1,0 +1,90 @@
+
+h3{
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color:#cccccc;
+}
+
+
+table{
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+td,  th {
+    border: 1px solid #fff;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #006680;}
+
+tr:hover {background-color: #006680;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #006680;
+    color: #cccccc;
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px; 
+    border: 1px solid #fff; 
+    border-radius: 5px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+.edit_btn {
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color:#80ffbf; 
+	color:#006680;
+    border-radius: 3px;
+}
+
+.del_btn {
+    text-decoration: none;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 3px;
+    background: #ff4d4d;
+}
+.msg {
+    margin: 30px auto; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    width: 50%;
+    text-align: center;
+}

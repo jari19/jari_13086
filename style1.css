@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 28, 2018, 1:48:12 AM
+    Author     : Jari Ali
+*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #bf80ff;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #7a0099;
+	color:white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #bf80ff;
+    color: white;
+    text-align: center;
+}
